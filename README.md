@@ -4,7 +4,7 @@ Jaspar is a mutation of the Caspar theme for [Ghost](http://github.com/tryghost/
 
 # Features that differ from Caspar
 
-* Allows custom header images on post pages. Just add and id of "header-img" to an image in the post and it will be set to the header and removed from the post.
+* Allows custom header images on post pages. Just add an id of "header-img" to an image in the post and it will be set to the header and removed from the post.
 
 ## Copyright & License
 
