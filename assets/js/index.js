@@ -10,7 +10,7 @@
 
         // set background image of post header
         var $postImage = $('#header-img');
-        if ( $postImage ) {
+        if ( $postImage.length ) {
 	        var postImageURL = $postImage.attr('src');
 	        $('header#site-head').css('background-image','url(' + postImageURL + ')');
         }
