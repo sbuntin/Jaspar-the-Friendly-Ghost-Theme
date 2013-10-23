@@ -12,7 +12,7 @@
         var $postImage = $('#header-img');
         if ( $postImage ) {
 	        var postImageURL = $postImage.attr('src');
-	        $('#site-head').css('background-image',postImageURL);
+	        $('header#site-head').css('background-image','url(' + postImageURL + ')');
         }
         $postImage.remove();
 
